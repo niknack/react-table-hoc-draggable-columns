@@ -1,5 +1,5 @@
 # Note
-> ⚠️ This is a modernized fork of the original `react-table-hoc-draggable-columns` by [patricktran](https://github.com/patricktran).  
+> ⚠️ This is a modernized fork of the original [`react-table-hoc-draggable-columns`](https://github.com/patricktran/react-table-hoc-draggable-columns) by [patricktran](https://github.com/patricktran).  
 > Published under the new package name `@niknack/react-table-hoc-draggable-columns` version 2.0.0 with updated dependencies and Node.js 18/22 support.
 
 ## Migration from v1
@@ -14,8 +14,6 @@
 
 [![NPM](https://img.shields.io/npm/v/@niknack/react-table-hoc-draggable-columns.svg)](https://www.npmjs.com/package/@niknack/react-table-hoc-draggable-columns) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> ⚠️ This is a modernized fork of the original [`react-table-hoc-draggable-columns`](https://github.com/patricktran/react-table-hoc-draggable-columns) by [patricktran](https://github.com/patricktran).  
-> Published under the new package name `@niknack/react-table-hoc-draggable-columns` version 2.0.0 with updated dependencies and Node.js 18/22 support.
 
 Higher Order Component for [ReactTable](https://react-table.js.org) to enable Draggable columns for reordering or swapping positions.
 
