@@ -1,3 +1,38 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [2.0.0] - 2025-06-23
+
+### ⚠️ Breaking Changes
+
+- Migrated build system to modern Rollup plugins.
+- Dropped support for Node versions below 14.
+- Package renamed to [`@niknack/react-table-hoc-draggable-columns`](https://www.npmjs.com/package/@niknack/react-table-hoc-draggable-columns).
+- Published as scoped package: `@niknack/react-table-hoc-draggable-columns`.
+
+### ✨ Added
+
+- Support for Node.js 18 and 22.
+- GitHub Pages demo hosted at [https://niknack.github.io/react-table-hoc-draggable-columns/](https://niknack.github.io/react-table-hoc-draggable-columns/).
+- `rollup-plugin-postcss` with Dart Sass for SCSS support.
+
+### 🔧 Changed
+
+- Updated all Rollup plugins to modern `@rollup/plugin-*` versions.
+- Switched from deprecated `node-sass` to `sass` (Dart Sass).
+- Updated `.babelrc` to use modern Babel presets.
+- Replaced CommonJS-style Rollup config with ESM format (`rollup.config.mjs`).
+- Added JSON import assertion for `package.json` in Rollup config.
+- Improved compatibility with newer Webpack and React versions.
+
+### 🛠 Fixed
+
+- Resolved build issues on modern Node.js versions (18, 22).
+- Fixed broken builds caused by deprecated or incompatible dependencies.
+- Addressed `svgr is not a function` issue with dynamic default import fallback.
+
+
 # 1.3.2 (2021-05-04)
 
 Bugfix - only call `onDraggedColumnChange` when column ordering is changed in ReactTable.
