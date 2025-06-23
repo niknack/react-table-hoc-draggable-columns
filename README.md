@@ -1,8 +1,21 @@
-# react-table-hoc-draggable-columns
+# Note
+> ⚠️ This is a modernized fork of the original `react-table-hoc-draggable-columns` by [patricktran](https://github.com/patricktran).  
+> Published under the new package name `@niknack/react-table-hoc-draggable-columns` version 2.0.0 with updated dependencies and Node.js 18/22 support.
+
+## Migration from v1
+
+- This package has been renamed and modernized.
+- Update your imports and package name from `react-table-hoc-draggable-columns` to `@niknack/react-table-hoc-draggable-columns`.
+- Major version bump to 2.0.0 due to breaking changes in build and dependencies.
+
+# @niknack/react-table-hoc-draggable-columns
 
 > ReactTable HOC for draggable columns
 
-[![NPM](https://img.shields.io/npm/v/react-table-hoc-draggable-columns.svg)](https://www.npmjs.com/package/react-table-hoc-draggable-columns) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@niknack/react-table-hoc-draggable-columns.svg)](https://www.npmjs.com/package/@niknack/react-table-hoc-draggable-columns) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+> ⚠️ This is a modernized fork of the original [`react-table-hoc-draggable-columns`](https://github.com/patricktran/react-table-hoc-draggable-columns) by [patricktran](https://github.com/patricktran).  
+> Published under the new package name `@niknack/react-table-hoc-draggable-columns` version 2.0.0 with updated dependencies and Node.js 18/22 support.
 
 Higher Order Component for [ReactTable](https://react-table.js.org) to enable Draggable columns for reordering or swapping positions.
 
@@ -12,12 +25,12 @@ Higher Order Component for [ReactTable](https://react-table.js.org) to enable Dr
 
 - [Install](#install)
 - [Usage](#usage)
-- [Demo](https://patricktran.github.io/react-table-hoc-draggable-columns/)
+- [Demo](https://niknack.github.io/react-table-hoc-draggable-columns/)
 
 ## Install
 
 ```bash
-npm install --save react-table-hoc-draggable-columns
+npm install --save @niknack/react-table-hoc-draggable-columns
 ```
 
 ## Usage
@@ -25,8 +38,8 @@ npm install --save react-table-hoc-draggable-columns
 ```js
 import ReactTable from 'react-table';
 import "react-table/react-table.css";
-import withDraggableColumns from 'react-table-hoc-draggable-columns';
-import 'react-table-hoc-draggable-columns/dist/styles.css';
+import withDraggableColumns from '@niknack/react-table-hoc-draggable-columns';
+import '@niknack/react-table-hoc-draggable-columns/dist/styles.css';
 
 const ReactTableDraggableColumns = withDraggableColumns(ReactTable);
 ...
@@ -83,4 +96,4 @@ ReactTable Columns Props [https://github.com/tannerlinsley/react-table/tree/v6.1
 
 ## License
 
-MIT © [patricktran](https://github.com/patricktran)
+MIT © [niknack](https://github.com/niknack)
