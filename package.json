@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/niknack/react-table-hoc-draggable-columns/issues"
   },
-  "homepage": "https://github.com/niknack/react-table-hoc-draggable-columns#readme",
+  "homepage": "https://niknack.github.io/react-table-hoc-draggable-columns/",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
